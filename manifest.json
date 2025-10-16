@@ -1,11 +1,11 @@
 {
-    "name": "bilancio_familiare_app",
-    "short_name": "bilancio_familiare_app",
+    "name": "Bilancio Familiare",
+    "short_name": "Bilancio Familiare",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A family budget app.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
