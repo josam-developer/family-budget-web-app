@@ -5,7 +5,6 @@ const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c",
 "assets/AssetManifest.bin.json": "69a99f98c8b1fb8111c5fb961769fcd8",
-"assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "9ab33d6e6ce8447bfda928372a9aaaa8",
 "assets/NOTICES": "7bca5d9b5cd8b3d8f0e8eee8f04016cb",
@@ -26,7 +25,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c
 "canvaskit/skwasm_heavy.wasm": "b0be7910760d205ea4e011458df6ee01",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "55122cdda4098a28bc6c149f773c1838",
+"flutter_bootstrap.js": "3fe009247129ac62b6e3d392cca97ef7",
 "icons/family-budget-1024.png": "f34845914842f6dd258f874cdc133374",
 "icons/Icon-192.png": "5a9dd9e92ae7c2aba27df346463835c3",
 "icons/Icon-512.png": "c8977e23e70a87d516282741cc59491e",
@@ -38,7 +37,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "693635b5258fe5f1cda720cf224f158c
 "icons/old/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "75c62222ae086cb11001594a05f4fac1",
 "/": "75c62222ae086cb11001594a05f4fac1",
-"main.dart.js": "a2a9e12b8690d419c921e2b4d62f7d44",
+"main.dart.js": "f50d30408a83916e4f775aa675fef69d",
 "manifest.json": "f253af01a09d5461ad9fbbf7423b5159",
 "version.json": "2f7b7425fae928f2cf3aee826756a1ea"};
 // The application shell files that are downloaded before a service worker can
