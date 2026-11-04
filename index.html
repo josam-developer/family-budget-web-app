@@ -32,6 +32,32 @@
 
   <title>Bilancio familiare</title>
   <link rel="manifest" href="manifest.json">
+
+  <!--
+    Flutter web disegna il testo su una canvas: la selezione nativa del browser
+    resta attiva sotto quella di Flutter, intercetta il long-press e fa sparire
+    le voci Copia/Taglia/Incolla (flutter/flutter#98342). Disattivandola sui
+    soli elementi non editabili, la selezione (e il menu) la gestisce Flutter.
+    Gli input reali del browser restano selezionabili, così il testo incollato
+    e la tastiera continuano a funzionare.
+  -->
+  <style>
+    html,
+    body,
+    body * {
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    input,
+    textarea,
+    [contenteditable='true'] {
+      -webkit-user-select: text;
+      user-select: text;
+    }
+  </style>
 </head>
 
 <body>
